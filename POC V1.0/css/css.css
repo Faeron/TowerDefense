@@ -1,0 +1,16 @@
+/* 
+    Document   : css
+    Created on : 3 avr. 2014, 14:53:42
+    Author     : DEL_INFO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    width: 1088px;
+    margin: auto;
+}
