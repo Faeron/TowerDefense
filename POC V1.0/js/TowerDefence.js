@@ -19,8 +19,8 @@ window.onload = function() {
     var imageObj = new Image();
     imageObj.onload = function() {
         var turret = new Kinetic.Image({
-            x: 0,
-            y: 0,
+            x: 64,
+            y: 64,
             image: imageObj,
             width: 64,
             height: 64,
