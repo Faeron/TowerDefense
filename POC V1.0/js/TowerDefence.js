@@ -70,7 +70,7 @@ window.onload = function() {
         // add the layer to the stage
         stage.add(layerTurret);
     };
-    imageObj.src = './tilesets/turret.png';
+    imageObj.src = './Images/Towers/MotarTower.png';
     // definit le canvas
     var canvas = layerMap.getCanvas();
     //definit le context
