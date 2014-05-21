@@ -32,3 +32,8 @@ Map.prototype.dessinerMap = function(context) {
         }
     }
 };
+
+// récupère la tile selectionner dans le tableau de la map [permet de savoir quel tile est à cette emplacement]
+Map.prototype.getArrayMapTile = function(xPos,yPos) {
+    return this.terrain[xPos][yPos];
+};

@@ -19,8 +19,8 @@ Tileset.prototype.dessinerTile = function(numero, context, xDestination, yDestin
         xSourceEnTiles = this.largeur;
     var ySourceEnTiles = Math.ceil(numero / this.largeur);
 
-    var xSource = (xSourceEnTiles - 1) * _tileSize; // 64 = taille de l'image en pixel
-    var ySource = (ySourceEnTiles - 1) * _tileSize; // 64 = taille de l'image en pixel
+    var xSource = (xSourceEnTiles - 1) * _tileSize; // _tileSize = taille de l'image en pixel
+    var ySource = (ySourceEnTiles - 1) * _tileSize; // _tileSize = taille de l'image en pixel
 
     context.drawImage(this.image, xSource, ySource, _tileSize, _tileSize, xDestination, yDestination, _tileSize, _tileSize);
 };
